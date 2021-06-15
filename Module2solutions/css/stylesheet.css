@@ -1,5 +1,205 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	margin: 0;
+}
+
+#main-block {
+
+position: relative;
+margin-left: 6%;
+
+
+}
+
+
+h1 {
+
+	text-align: center;
+	margin-bottom:80px;
+	margin-top: 80px;
+	font-family: helvetica;
+	font-size: 1.75 em ;
+}
+
 #col1 {
-	background-color:  red;
-	width: 33%;
-	height: 200px;
+
+	background-color:  #F39189;
+	width: 30%;
+	height: auto;
+	border:  solid 1px black;
+	float: left;
+	position: relative;
+	margin-right: 2%;
+
+
+
+}
+
+#col2 {
+
+	background-color: #BB8082;
+	width: 30%;
+	height: auto;
+	border:  solid 1px black;
+	float: left;
+	position: relative;
+	margin-right: 2%;
+
+
+}
+
+#col3 {
+
+	background-color: #6E7582;
+	width: 30%;
+	height: auto;
+	border:  solid 1px black;
+	float: left;
+	position: relative;
+
+}
+
+p {
+	color: white;
+	font-family:  arial;
+	font-size: 1em;
+	padding-bottom: 10px;
+	float: left;
+	padding: 15px;
+	padding-top: 20px;
+
+}
+
+#col1-title {
+	background-color: darkorange;
+	width: 100px;
+	border: solid black 1px;
+	text-align:  left;
+	position: relative;
+	float: right;
+	
+}
+
+#col2-title {
+	background-color: indianred;
+	width: 100px;
+	border: solid black 1px;
+	text-align:  left;
+	position: relative;
+	float: right;
+
+
+}
+
+#col3-title{
+	background-color: #746198;
+	width: 100px;
+	border: solid black 1px;
+	position: relative;
+	float:  right;
+
+}
+
+h2 {
+	color: white;
+	font-family: arial;
+	font-size: 1.25em;
+	text-align: center;
+
+
+
+
+}
+
+
+
+
+/*Responsive Tablet Queries*/
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+	#col1 {
+
+		background-color:  #F39189;
+		width: 46%;
+		height: auto;
+		border:  solid 1px black;
+		float: left;
+		position: relative;
+		margin-right: 2%;
+
+
+
+	}
+
+	#col2 {
+
+		background-color: #BB8082;
+		width: 46%;
+		height: auto;
+		border:  solid 1px black;
+		float: left;
+		position: relative;
+
+
+
+	}
+
+	#col3 {
+
+		background-color: #6E7582;
+		width: 94%;
+		height: auto;
+		border:  solid 1px black;
+		clear: both;
+		margin-top: 2%;
+	}
+
+
+}
+
+
+/*Responsive Mobile Queries*/
+
+@media (max-width: 767px) {
+
+
+
+	#col1 {
+
+		background-color:  #F39189;
+		width: 94%;
+		height: auto;
+		border:  solid 1px black;
+		display: block;
+		margin-bottom: 20px;
+
+	}
+
+	#col2 {
+
+		background-color: #BB8082;
+		width: 94%;
+		height: auto;
+		border:  solid 1px black;
+		margin-bottom: 20px;
+
+	}
+
+	#col3 {
+
+		background-color: #6E7582;
+		width: 94%;
+		height: auto;
+		border:  solid 1px black;
+		display: block;
+		margin-bottom: 60px;
+
+	}
+
+
 }
